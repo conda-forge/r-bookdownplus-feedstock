@@ -5,11 +5,9 @@ Home: https://github.com/pzhaonet/bookdownplus
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-bookdownplus-feedstock/blob/master/LICENSE.txt)
 
 Summary: A collection and selector of R 'bookdown' templates. 'bookdownplus' helps you write academic journal articles, guitar books, chemical equations, mails, calendars, and diaries. R 'bookdownplus' extends the features of 'bookdown', and simplifies the procedure. Users only have to choose a template, clarify the book title and author name, and then focus on writing the text. No need to struggle in 'YAML' and 'LaTeX'.
-
-
 
 Current build status
 ====================
@@ -38,6 +36,7 @@ Installing `r-bookdownplus` from the `conda-forge` channel can be achieved by ad
 
 ```
 conda config --add channels conda-forge
+conda config --set channel_priority strict
 ```
 
 Once the `conda-forge` channel has been enabled, `r-bookdownplus` can be installed with:
@@ -108,9 +107,9 @@ build distinct package versions.
 
 In order to produce a uniquely identifiable distribution:
  * If the version of a package **is not** being increased, please add or increase
-   the [``build/number``](https://conda.io/docs/user-guide/tasks/build-packages/define-metadata.html#build-number-and-string).
+   the [``build/number``](https://docs.conda.io/projects/conda-build/en/latest/resources/define-metadata.html#build-number-and-string).
  * If the version of a package **is** being increased, please remember to return
-   the [``build/number``](https://conda.io/docs/user-guide/tasks/build-packages/define-metadata.html#build-number-and-string)
+   the [``build/number``](https://docs.conda.io/projects/conda-build/en/latest/resources/define-metadata.html#build-number-and-string)
    back to 0.
 
 Feedstock Maintainers

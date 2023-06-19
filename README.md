@@ -1,11 +1,11 @@
-About r-bookdownplus
-====================
+About r-bookdownplus-feedstock
+==============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-bookdownplus-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/pzhaonet/bookdownplus
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-bookdownplus-feedstock/blob/main/LICENSE.txt)
 
 Summary: A collection and selector of R 'bookdown' templates. 'bookdownplus' helps you write academic journal articles, guitar books, chemical equations, mails, calendars, and diaries. R 'bookdownplus' extends the features of 'bookdown', and simplifies the procedure. Users only have to choose a template, clarify the book title and author name, and then focus on writing the text. No need to struggle in 'YAML' and 'LaTeX'.
 
